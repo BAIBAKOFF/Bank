@@ -213,7 +213,7 @@ btnClose.addEventListener('click', function (e) {
     accounts.splice(currentAccountIndex, 1);
 
     containerApp.style.opacity = 0;
-    labelWelcome.textContent = 'Войдите в свой аккаунт';
+    labelWelcome.textContent = 'Login to your account';
   }
 
   inputCloseNickname.value = '';

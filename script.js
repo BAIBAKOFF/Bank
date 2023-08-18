@@ -165,7 +165,7 @@ btnLogin.addEventListener('click', function (e) {
     // Display UI and welcome message
     containerApp.style.opacity = 100;
 
-    labelWelcome.textContent = `Рады, что вы снова с нами, ${
+    labelWelcome.textContent = `We are glad that you are with us again, ${
       currentAccount.userName.split(' ')[0]
     }!`;
 
